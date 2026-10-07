@@ -1,0 +1,53 @@
+{
+  "typ": "E-Auto-Diesel-Vergleich",
+  "version": 4,
+  "beschreibung": "Heimladen mit hohem Solarstrom-Anteil (0,15 €/kWh) und THG-Quote als Erlös",
+  "parameter": {
+    "km": 30000,
+    "years": 1,
+    "ev": {
+      "value": 21600,
+      "age": 3,
+      "ins": 780,
+      "cons": 17,
+      "energyPrice": 0.15,
+      "other": -100
+    },
+    "dz": {
+      "value": 23200,
+      "age": 3,
+      "ins": 720,
+      "cons": 5.8,
+      "energyPrice": 2.2,
+      "other": 680
+    },
+    "depModel": {
+      "share": 60,
+      "refKm": 15000,
+      "curve": {
+        "ev": [
+          25,
+          17,
+          17,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8
+        ],
+        "dz": [
+          22,
+          12,
+          11,
+          10,
+          9,
+          8.5,
+          8,
+          7.5,
+          7
+        ]
+      }
+    }
+  }
+}
